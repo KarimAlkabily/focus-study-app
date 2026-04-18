@@ -12,7 +12,12 @@ A modern productivity web app that combines **task management** with a **focus t
 
 ## 📸 Screenshots
 
-(Add screenshots here later)
+<img width="1174" height="912" alt="image" src="https://github.com/user-attachments/assets/ce26d073-a7a1-4f45-b7ad-35190e948d38" />
+<img width="1243" height="886" alt="image" src="https://github.com/user-attachments/assets/81f0cc30-8bb0-41e7-a742-6bd4931cdbda" />
+<img width="1128" height="913" alt="image" src="https://github.com/user-attachments/assets/0c46dfed-d060-4ca4-8190-f6ba0a6f22c4" />
+
+
+
 
 ---
 
