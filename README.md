@@ -119,8 +119,7 @@ npm run dev
 
 ## 🚀 Live Demo
 
-👉 https://your-vercel-link.vercel.app
-
+👉 https://focus-study-app.vercel.app/
 ---
 
 ## 📁 Project Structure
