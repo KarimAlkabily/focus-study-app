@@ -183,7 +183,7 @@ export default function Timer({ activeTask, onToggle, onAddSession }) {
 
       {/* Start input — shown only when idle */}
       {!isRunning && seconds === 0 && (
-        <div className="flex gap-2 mb-3">
+        <div className="flex gap-2 mb-3 w-full overflow-hidden">
           <input
             value={minutes}
             onChange={(e) => setMinutes(e.target.value)}

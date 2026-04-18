@@ -46,7 +46,7 @@ export default function TaskItem({
       )}
 
       {/* Action buttons — visible on hover */}
-      <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+      <div className="flex gap-1 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-150">
         <button
           onClick={() => onActiveTaskId(task.id)}
           className={`text-xs px-2.5 py-1 rounded-lg font-semibold transition-colors ${
