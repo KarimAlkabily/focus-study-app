@@ -1,20 +1,28 @@
 # 🚀 Focus Study App
 
-A productivity web app built with React + Vite to help users stay focused, track study sessions, and manage tasks efficiently.
+A modern productivity web app that combines **task management** with a **focus timer (Pomodoro-style)** to help users stay organized and improve concentration.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://focus-study-app.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here later)
 
 ---
 
 ## 📌 Overview
 
-Focus Study App is designed to combine **task management + focus timer (Pomodoro-style)** in one simple interface.
+Focus Study App is designed to help users:
 
-Users can:
-
-* Create and manage tasks
-* Track focus sessions
-* Add extra sessions with reasons
-* View history and statistics
-* Stay organized and productive
+* Manage daily tasks efficiently
+* Stay focused using a customizable timer
+* Track productivity through sessions and statistics
 
 ---
 
@@ -22,8 +30,7 @@ Users can:
 
 ### 📝 Task Management
 
-* Add new tasks
-* Delete tasks
+* Add / delete tasks
 * Mark tasks as completed
 * Select active task
 
@@ -31,18 +38,17 @@ Users can:
 
 ### ⏱️ Focus Timer
 
-* Custom timer (user-defined minutes)
+* Custom duration (user input)
 * Start / Pause / Resume / Reset
-* Works only when a task is selected
-* Prevents invalid inputs
+* Prevents running without selecting a task
 
 ---
 
-### 🔁 Session System
+### 🔁 Session Tracking
 
-* Automatically logs sessions when timer ends
+* Automatically logs completed sessions
 * Add extra sessions manually
-* Attach a **reason** for extra sessions
+* Attach a reason for additional sessions
 * Tracks total sessions per task
 
 ---
@@ -52,37 +58,34 @@ Users can:
 * Total tasks
 * Completed tasks
 * Total sessions
-* Daily sessions tracking
-* Daily completed tasks
+* Daily productivity tracking
 
 ---
 
 ### 📜 History Page
 
-* Shows all sessions per task
-* Displays:
+* Displays all sessions per task
+* Shows:
 
   * Time spent
-  * Reason (if exists)
-  * Organized per task
+  * Reason
+  * Organized logs
 
 ---
 
 ### 🌙 Dark Mode
 
 * Toggle between light and dark themes
-* Uses Tailwind CSS dark mode
 
 ---
 
 ### 💾 Local Storage
 
-* Saves all data locally:
+* Persistent data:
 
   * Tasks
   * Sessions
-  * Stats
-* Data persists after refresh
+  * Statistics
 
 ---
 
@@ -117,11 +120,6 @@ npm run dev
 
 ---
 
-## 🚀 Live Demo
-
-👉 https://focus-study-app.vercel.app/
----
-
 ## 📁 Project Structure
 
 ```bash
@@ -140,30 +138,21 @@ src/
 
 ## 🎯 Future Improvements
 
-* Real-time timer persistence (even after closing tab)
-* Charts for statistics (daily/weekly)
+* Real-time timer persistence
+* Charts & analytics dashboard
 * Notifications & sound alerts
 * Focus mode (full screen)
-* User authentication
-* Cloud database (Firebase / Supabase)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+* Authentication system
+* Cloud database integration
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by **[Karim-Alkabily]**
+Developed by **Karim Alkabily**
+
+---
+
+## ⭐ Support
 
 If you like this project, consider giving it a ⭐ on GitHub!
